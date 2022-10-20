@@ -16,11 +16,37 @@ body {
 #description-of-page {
 	display: flex;
 	justify-content: space-evenly;
+	margin-top: 5vh;
 }
 #main-container {
 	/* background-color: lightgreen; */
-	margin: 1vh;
+	/* display: flex; */
+	/* justify-content: space-between; */
+	/* align-items: center; */
+	/* wrap: nowrap; */
+	/* margin: 1vh; */
+	/* height: 90vh; */
+}
+#image-with-side-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	height: 90vh;
+}
+#main-container-image {
+	height: 50vh;
+}
+#aside-section {
+	border: 1px solid black;
+	width: 50vw;
+	height: auto;
+}
+#form-container {
+	border: 1px solid black;
+	display: flex;
+	padding: 2%;
+	width: 50vw;
+	height: auto;
 }
 #footer-container {
 	background: lightblue;
